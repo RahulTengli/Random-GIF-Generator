@@ -20,9 +20,9 @@ function Tag() {
       setLoader(false);
     }
 
-    useEffect(()=>{
-      fetchData();
-    },[]);
+    useEffect(() => {
+  fetchData();
+  }, [fetchData]);
     
     function clickHandler(){
         fetchData();
